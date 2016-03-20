@@ -21,6 +21,7 @@ h1 {
   font-size: 4rem;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
+	background-position: center;
 }
 
 p {
