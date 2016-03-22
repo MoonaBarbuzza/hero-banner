@@ -13,15 +13,13 @@ body {
 
 .img-flex {
   width: 100%;
-  height:auto;
-  max-height: 500px;
 }
 
 h1 {
   font-size: 4rem;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
-	background-position: center;
+  text-align: left;
 }
 
 p {
@@ -30,9 +28,20 @@ p {
 	text-align: left;
 }
 
-.banner {
+.bannercontent {
   position: absolute;
   text-align: center;
   width: 100%;
   bottom: 30em;
+	max-width: 50em;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 1.5em;
+	padding: 1em;
+}
+
+.banner {
+	  max-height: 500px;
+		position:relative;
+
 }
